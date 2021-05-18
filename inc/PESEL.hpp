@@ -4,7 +4,6 @@
 
 class PESEL {
 public:
-    using small = unsigned short;
     PESEL(){}
     PESEL(std::string full) :
         full_(full){}
